@@ -1,0 +1,17 @@
+Package: SOaCRaport
+Title: Wyszukiwanie odchylen i grupowanie danych - Search Outliers and Clustering Raport
+Version: 1.0.0
+Authors@R: person("Czeslaw", "Horyn", email = "choryn@us.edu.pl", role = c("aut", "cre"))
+Description: Pakiet skladajacy sie z funkcji glownej Funk.test(), 
+    ktora wyszukuje odchylenia metoda LOF lub COF i nastepnie usuwa
+	je z badanego zbioru, po usunieciu grupuje dane algorytmem 
+	hierarchicznym. Za kazdym razem obliczny jest wspolczynnik 
+	Jaacarda, ktory okresla jakosc zbiorow po grupowaniu.
+Depends: R (>= 3.5.0), BiocManager,cluster,colorspace,DDoutlier,dendextend,DMwR,dplyr,factoextra,fpc,NbClust,rlang,rJava,tibble,xlsx
+Imports:MASS
+Suggests:ggplot2
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+
